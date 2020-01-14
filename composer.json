@@ -1,0 +1,33 @@
+{
+    "name": "vularsoft/order",
+    "description": "外贸订单管理系统",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Water Li",
+            "email": "11011968@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Water\\Vular\\Order\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Water\\Vular\\Order\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Water\\Vular\\Order\\OrderServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    }
+}
